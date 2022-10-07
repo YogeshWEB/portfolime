@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(198, 228, 228, 0.673);
+}
+main{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 3px;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.548);
+    border-radius: 20px;
+    mask-image: linear-gradient(black, rgba(255, 255, 255, 0.491));
+    -webkit-mask-image: linear-gradient(black, rgba(255, 255, 255, 0.491));
+    margin: 10px;
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav span{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+nav span a{
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    text-transform: capitalize;
+    /* margin: 
+    50px; */
+}
+.fewWord{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+    justify-content: center; 
+    padding: 10px;   
+}
+.heading{
+    margin: 0;
+    text-transform: capitalize;
+
+}
+.About{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.image{
+    object-fit: cover;
+    width: 40vw;
+    height: 50vh;
+    
+    padding: 20px;
+    border-right: 1px solid gray;
+}
+.write{
+    width: 40vw;
+    margin: 20px;
+}
+/* skill section */
+
+/* end skill section */
+.project{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.text{
+    font-size: 22px;
+    text-decoration: underline 1px solid gray;
+}
+.project-card-grid{
+    width: 100%;
+    display: grid;
+  grid-template-columns: auto auto auto ;
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+.project-card{
+    /* background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.txt{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.pimage{
+    display: flex;
+    width: 30vw;
+    /* object-fit: contain; */
+}
