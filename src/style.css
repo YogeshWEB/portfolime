@@ -3,8 +3,38 @@ body{
     padding: 0;
     box-sizing: border-box;
     background-image: url("../asset/backimg.png");
-    color: white;
+    /* color: white; */
     z-index: -2;
+}
+.navbar{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    /* position: -webkit-sticky; */
+    top:0;
+}
+.navti{
+    color: white;
+    background-color: none;
+    border-radius: 14px;
+    padding: 5px;
+}
+.navti:hover{
+    color: white;
+    background-color: black;
+}
+.navti a{
+    color: white;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 .image{
     display: flex;
@@ -14,7 +44,7 @@ body{
     /* left: 0; */
     /* right: 0; */
     z-index: -1;
-    width: 1000px;
+    width: 100%;
 }
 .welcome{
     display: flex;
